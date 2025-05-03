@@ -5316,6 +5316,10 @@
 		(uuid "772587cc-e1a2-44d2-a4f1-1a0938dad157")
 	)
 	(no_connect
+		(at 168.91 97.79)
+		(uuid "7cd16988-afcb-4435-8e15-491e8d104885")
+	)
+	(no_connect
 		(at 133.35 115.57)
 		(uuid "826fc167-2389-44b3-84e9-131dd437abd0")
 	)
@@ -5449,7 +5453,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 165.1) (xy 25.4 163.83)
+			(xy 25.4 160.02) (xy 25.4 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5689,7 +5693,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 154.94) (xy 43.18 156.21)
+			(xy 43.18 149.86) (xy 43.18 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5769,7 +5773,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 165.1) (xy 43.18 163.83)
+			(xy 43.18 160.02) (xy 43.18 158.75)
 		)
 		(stroke
 			(width 0)
@@ -5869,7 +5873,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 154.94) (xy 25.4 156.21)
+			(xy 25.4 149.86) (xy 25.4 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6490,6 +6494,30 @@
 		(uuid bdf54c0f-e8e2-4d84-9a30-89d1167f1589)
 	)
 	(rectangle
+		(start 13.97 170.18)
+		(end 62.23 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c33413a6-46ab-44c9-aa01-6deb7798c80c)
+	)
+	(rectangle
+		(start 62.23 170.18)
+		(end 111.76 195.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c8122daa-556f-4e9e-927d-74b092b5b4c2)
+	)
+	(rectangle
 		(start 189.23 120.65)
 		(end 283.21 163.83)
 		(stroke
@@ -6550,6 +6578,16 @@
 			)
 		)
 		(uuid "7d754828-76b3-427e-bfdb-84e7bf00b13f")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 37.846 175.006 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "7ebe62d3-15a0-4e25-b839-98afb1fa50f0")
 	)
 	(text "Camera"
 		(exclude_from_sim no)
@@ -6835,7 +6873,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 25.4 165.1 0)
+		(at 25.4 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6845,7 +6883,7 @@
 		)
 		(uuid "131a0203-589f-44b4-b109-33b42ad962f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.0052 165.1 0)
+			(at 36.0052 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7649,7 +7687,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 43.18 154.94 0)
+		(at 43.18 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7659,7 +7697,7 @@
 		)
 		(uuid "85edbaf6-8942-4c4d-83c2-ff7ecad5101f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.2776 154.94 0)
+			(at 50.2776 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7737,7 +7775,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 25.4 154.94 0)
+		(at 25.4 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7747,7 +7785,7 @@
 		)
 		(uuid "8f109db8-9e52-4d25-8cb5-9510ca97218c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.4976 154.94 0)
+			(at 32.4976 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8925,7 +8963,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 43.18 165.1 0)
+		(at 43.18 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8935,7 +8973,7 @@
 		)
 		(uuid "efdf5a78-9785-4345-9ef8-b46ce7027bfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.7247 165.1 0)
+			(at 53.7247 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9240,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "02835e55-cd62-4752-a091-d0f7204d6dce")
 		(property "Reference" "ArmL1"
@@ -10330,7 +10368,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "16946b5b-f42c-4458-aa61-f7abdcf7acff")
 		(property "Reference" "RightMotor1"
 			(at 49.53 21.844 0)
@@ -10596,7 +10634,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 40.64 186.69 0)
+		(at 41.91 184.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -10605,7 +10643,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b91fa8e-2418-4c11-aa30-b2fc4d9ba47e")
 		(property "Reference" "H3"
-			(at 43.18 185.4199 0)
+			(at 44.45 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10614,7 +10652,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 43.18 187.9599 0)
+			(at 44.45 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10662,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 40.64 186.69 0)
+			(at 41.91 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,7 +10671,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 186.69 0)
+			(at 41.91 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +10680,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 40.64 186.69 0)
+			(at 41.91 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10651,7 +10689,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 40.64 186.69 0)
+			(at 41.91 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10660,7 +10698,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 40.64 186.69 0)
+			(at 41.91 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10669,7 +10707,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 40.64 186.69 0)
+			(at 41.91 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +11036,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 49.53 186.69 0)
+		(at 50.8 184.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -11007,7 +11045,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a14c727-cafb-4ae5-a4a4-47b43ec264d9")
 		(property "Reference" "H4"
-			(at 52.07 185.4199 0)
+			(at 53.34 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +11054,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 52.07 187.9599 0)
+			(at 53.34 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +11064,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 49.53 186.69 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +11073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 186.69 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11044,7 +11082,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 49.53 186.69 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11053,7 +11091,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 49.53 186.69 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,7 +11100,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 49.53 186.69 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11071,7 +11109,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 49.53 186.69 0)
+			(at 50.8 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,7 +11133,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2f8e26e6-5069-48f0-aa6c-cec7d3989285")
 		(property "Reference" "HandL1"
@@ -11262,7 +11300,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3252191d-695a-41b3-a70b-6039ccbbda74")
 		(property "Reference" "UART1"
@@ -11558,7 +11596,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "487cdea1-8c75-47ae-b486-3116a1990a64")
 		(property "Reference" "Camera1"
@@ -12065,7 +12103,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "60e70fc5-a9be-4889-a2eb-5f36939e533c")
 		(property "Reference" "C9"
 			(at 219.964 79.756 90)
@@ -12443,7 +12481,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6c885121-4130-40af-9579-af37ad3c2eaa")
 		(property "Reference" "C11"
 			(at 267.462 79.756 90)
@@ -12532,7 +12570,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 43.18 160.02 0)
+		(at 43.18 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12540,7 +12578,7 @@
 		(dnp no)
 		(uuid "717facc9-d449-4d24-8ac1-2bec7aa5641b")
 		(property "Reference" "R19"
-			(at 41.148 160.02 90)
+			(at 41.148 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12548,7 +12586,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 43.18 160.02 90)
+			(at 43.18 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12556,7 +12594,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.402 160.02 90)
+			(at 41.402 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12565,7 +12603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 160.02 0)
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12574,7 +12612,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 43.18 160.02 0)
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,7 +12621,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 43.18 160.02 0)
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12592,7 +12630,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 43.18 160.02 0)
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,7 +12639,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 43.18 160.02 0)
+			(at 43.18 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12854,7 +12892,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 186.69 0)
+		(at 24.13 184.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12863,7 +12901,7 @@
 		(fields_autoplaced yes)
 		(uuid "7aee5a76-4529-40df-996e-ceeb06890c80")
 		(property "Reference" "H1"
-			(at 25.4 185.4199 0)
+			(at 26.67 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,7 +12910,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 25.4 187.9599 0)
+			(at 26.67 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,7 +12920,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 22.86 186.69 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,7 +12929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 186.69 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12900,7 +12938,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.86 186.69 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12909,7 +12947,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 22.86 186.69 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12918,7 +12956,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 22.86 186.69 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,7 +12965,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 22.86 186.69 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,7 +13537,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 25.4 160.02 0)
+		(at 25.4 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13507,7 +13545,7 @@
 		(dnp no)
 		(uuid "9b6f03c5-8964-4c93-b582-c0ea8ab3e1b8")
 		(property "Reference" "R18"
-			(at 23.368 160.02 90)
+			(at 23.368 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,7 +13553,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 25.4 160.02 90)
+			(at 25.4 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13523,7 +13561,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 23.622 160.02 90)
+			(at 23.622 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13532,7 +13570,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 160.02 0)
+			(at 25.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13541,7 +13579,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 25.4 160.02 0)
+			(at 25.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13550,7 +13588,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 25.4 160.02 0)
+			(at 25.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13559,7 +13597,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 25.4 160.02 0)
+			(at 25.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13568,7 +13606,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 25.4 160.02 0)
+			(at 25.4 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13989,7 +14027,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a5f9c454-9359-4b25-a303-2e7f20d4267c")
 		(property "Reference" "STLink1"
 			(at 49.022 124.46 0)
@@ -14098,7 +14136,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a643ac10-69ab-4b96-85f0-769916328aa1")
 		(property "Reference" "J1"
 			(at 201.93 46.228 0)
@@ -14202,7 +14240,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a6fc19af-4cfb-401b-9711-a6a24be8f4a0")
 		(property "Reference" "Range1"
@@ -14468,7 +14506,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "af5d94e7-400a-40be-bc62-6e897f815d2d")
 		(property "Reference" "HandR1"
@@ -14952,7 +14990,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 31.75 186.69 0)
+		(at 33.02 184.15 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14961,7 +14999,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7c026a7-3540-4f76-9943-b1fa4b977603")
 		(property "Reference" "H2"
-			(at 34.29 185.4199 0)
+			(at 35.56 182.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14970,7 +15008,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 34.29 187.9599 0)
+			(at 35.56 185.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14980,7 +15018,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 31.75 186.69 0)
+			(at 33.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14989,7 +15027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 186.69 0)
+			(at 33.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14998,7 +15036,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 31.75 186.69 0)
+			(at 33.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15007,7 +15045,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 31.75 186.69 0)
+			(at 33.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,7 +15054,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 31.75 186.69 0)
+			(at 33.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +15063,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 31.75 186.69 0)
+			(at 33.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16091,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cfab75d8-6f08-4677-9d4c-c1c69eaf9dad")
 		(property "Reference" "LeftMotor1"
 			(at 84.074 22.098 0)
@@ -16941,7 +16979,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f8f4766f-6c61-4c8a-baf7-06c8c548f125")
 		(property "Reference" "ArmR1"
